@@ -43,6 +43,7 @@ class _HomePageState extends State<HomePage> {
               Slider(
                 value: progress.currentvalue,
                 max: 100,
+                label: progress.currentvalue.round().toString(),
                 activeColor: Color.fromARGB(255, 73, 73, 73),
                 inactiveColor: Color.fromARGB(255, 139, 139, 139),
                 thumbColor: Colors.black,
